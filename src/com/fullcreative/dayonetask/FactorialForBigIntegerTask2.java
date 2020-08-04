@@ -21,7 +21,7 @@ public class FactorialForBigIntegerTask2 {
 	public static BigInteger factorial(int N) {
 		BigInteger f = new BigInteger("1");
 
-		for (int i = 2; i <= N; i++)
+		for (int i = N; i >= 2; i--)
 			f = f.multiply(BigInteger.valueOf(i));
 		return f;
 	}
