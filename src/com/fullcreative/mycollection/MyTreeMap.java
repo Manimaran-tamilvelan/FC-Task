@@ -13,6 +13,8 @@ public class MyTreeMap {
 		t.put(10, 25);
 		t.put(5, 15);
 		
+		
+		
 		System.out.println(t);
 		
 		//after ascending it searches the first/last key not by insertion order

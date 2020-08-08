@@ -35,7 +35,7 @@ public class MyStack {
 
 		int loop = l.size();
 		List<Character> ls = new Stack<>();
-
+		
 		// System.out.println(l.search('5'));
 		// System.out.println("Checking Insertion order:"+l);
 		System.out.println("Reverse of your Input is:");

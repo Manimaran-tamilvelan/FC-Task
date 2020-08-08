@@ -24,11 +24,11 @@ public class MyArrayList {
 
 		ArrayList<Integer> al1 = new ArrayList<>();
 		al1.addAll(al);
-
+		
 		// shifting is there so, it's slow compare to linked list
 		al1.remove(0);
 		al1.add(0, 5);
-
+		al1.remove((Integer)5);
 		System.out.println("Obj:" + al1);
 
 		Iterator itr = al1.iterator();

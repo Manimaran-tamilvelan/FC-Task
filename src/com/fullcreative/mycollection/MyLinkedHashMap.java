@@ -1,5 +1,6 @@
 package com.fullcreative.mycollection;
 
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -20,11 +21,11 @@ public class MyLinkedHashMap {
 		
 		System.out.println(l);
 		
-		for(Map.Entry m:l.entrySet()) {
-			System.out.println(m.getKey()+" - "+m.getValue());
+		Iterator i = l.entrySet().iterator();
+		
+		while(i.hasNext()) {
+			System.out.println(i.next());
 		}
-		
-		
 	}
 
 }

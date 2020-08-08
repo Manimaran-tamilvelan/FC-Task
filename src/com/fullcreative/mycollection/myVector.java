@@ -17,7 +17,7 @@ public class myVector {
 		// v.addElement(20);
 		v.add(1, 15);
 		v.add(5);
-
+		
 		v.remove((Integer) 15);
 		System.out.print("Insertion Order: ");
 		System.out.println(v);
